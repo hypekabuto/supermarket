@@ -1,18 +1,19 @@
 <template>
-  <Login></Login>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import Login from './components/LogIn.vue'
 
 export default {
   name: 'App',
-  components: {
-    Login
-  }
 }
 </script>
 
 <style>
-*{margin: 0 auto;padding: 0;}
+html,body,h3,p{
+  margin: 0;
+  padding: 0;
+}
 </style>
