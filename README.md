@@ -1,5 +1,5 @@
-# supermarket
-
+# 超市订单管理系统（前端部分）
+##  使用了Vue2 + Echarts + ElementUI
 ## Project setup
 ```
 npm install
